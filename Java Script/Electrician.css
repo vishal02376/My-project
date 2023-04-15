@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+   display: flex;
+    position: sticky;
+   top: 0; 
+   background-color: white;
+}
+nav h2{
+    font-family: 'PT Sans', sans-serif;
+    color: #2f889a;
+    padding-left: 87px;
+}
+header nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-family: 'PT Sans', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    align-items: center;
+    padding-left: 65px;
+    font-size: 15px;
+    
+}
+ ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+ul li a:hover{
+    
+    color: red;
+}
+nav p{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 176px;
+    border-radius: 40px solid green;
+    font-size: 15px;
+    /* background-color: aqua; */
+  
+}
+nav p a{
+    text-decoration: none;
+    /* color: #ffb341; */
+    border-radius: 40px solid green;
+    padding-right: 10px;
+}
+p a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 129px;
+}
+.img2 {
+    display: flex;
+    padding-left: 142px;
+    position: relative;
+    right: 70px;
+   
+}
+.img3{
+    
+    position: relative;
+    right: 276px;
+}
+.heading{
+    color: #3a5795;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 127px;
+    margin-top: 20px;
+}
+.Elictrician_img{
+    display: inline-block;
+    padding-left: 127px;
+    margin-top: 23px;
+    overflow: hidden;
+    
+
+}
+img{
+    float: left;
+}
+h2{
+    float: left;
+    padding-left: 80px;
+    color: orangered;
+    font-size: 27px;
+}
+ .item{
+    padding-left: 80px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+   
+ }
+ .m1{
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 10px;
+ }
+
+ .m3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .m5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .m7{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .Book{
+    margin-top: 56px;
+    padding-left: 131px;
+    width: 180px;
+    background-color:#3a5795;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  .Book a{
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    
+  }
+  .Book b{
+    margin-top: 5px;
+  }
+  .Book a :hover{
+   
+    color: #ffb341;
+
+  }
+  footer{
+    font-family: 'PT Sans', sans-serif;
+    background-color:black;
+    height: 15vh;
+   
+}
+footer p{
+   
+    color: #ffb341;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 46px;
+
+}
+ footer img{
+
+    align-items: center;
+padding-right: 30px;
+display: flex;
+align-items: center;
+justify-content: left;
+display: inline-block;
+position: relative;
+bottom: 24px;
+left: 31px;
+ }
+ footer b{
+    color: #ffb341;
+    position: relative;
+    bottom: 30px;
+left: 5px;
+font-size: 15;
+display: inline-block;
+}

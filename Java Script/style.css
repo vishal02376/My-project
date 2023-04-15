@@ -1,0 +1,157 @@
+import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+body {
+    background: rgb(216, 216, 223);
+    font-family: 'Sofia Sans', sans-serif;
+   
+}
+
+.navbar {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#btn{
+    cursor:default;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #d2d8d8;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signup-modal {
+    line-height: 90px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 20px;
+    width: 70%;
+    border: 1px solid #d2d8d8;
+    border-radius: 4px;
+    box-sizing: border-box;
+   
+}
+
+#signup {
+    padding: 16px;
+    background-color: #2f889a;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    width: 70%;
+}
+
+#submit {
+    padding: 16px;
+    background-color: #2f889a;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    width: 70%;
+}
+
+.fa-input {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-spacing: 9px;
+  }
+
+  #header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(image/Untitled.png);
+    background-size: cover;
+    background-position: right;
+    
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.header-text{
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 100;
+    font-size: 15px;
+    
+}

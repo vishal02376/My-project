@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fixit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#" style="color: #2f889a;"><i class="fa fa-ravelry" aria-hidden="true"></i> Fix It</a>
+
+        <a href="#" style="float:right" class="button"
+            onclick="document.getElementById('login-modal').style.display='block'">Login </a>
+        <a href="" style="float:right;" id="btn" class="button">/</a>
+        <a href="#" style="float:right" class="button"
+            onclick="document.getElementById('signup-modal').style.display='block'">Sign Up</a>
+
+        <a href="aboutus.html" style="float:right;" class="button">About</a>
+    </div>
+
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('login-modal').style.display='none'">&times;</span>
+            <h2>Login</h2>
+            <form action="landing_page.html">
+
+                <input type="email" id="l-email" name="email" class="fa-input" placeholder="&#xf003; Email"><br><br>
+                <input type="password" id="l-password" name="password" class="fa-input"
+                    placeholder="&#xf084 Password"><br><br>
+                <input type="submit" id="submit" value="Login">
+            </form>
+        </div>
+    </div>
+
+
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('signup-modal').style.display='none'">&times;</span>
+            <h2>Sign Up</h2>
+            <form action="landing_page.html">
+
+                <input type="text" id="firstname" name="firstname" class="fa-input" placeholder="&#xf2c0; FirstName">
+
+                <input type="text" id="lastname" name="lastname" class="fa-input" placeholder="&#xf2c0; LastName"><br>
+
+                <input type="email" id="s-email" name="email" class="fa-input" placeholder="&#xf003; Email"><br>
+
+                <input type="password" id="s-password" name="password" class="fa-input"
+                    placeholder="&#xf084 Password"><br>
+
+
+                <input type="submit" id="signup" value="Create Account">
+            </form>
+        </div>
+    </div>
+
+    <div id="header">
+
+        <div class="container">
+
+            <div class="header-text">
+                <p style="font-size: 21px;">Welcome to Incredibility !</p>
+                <h1>Fix at <br> Your Doorstep <br><span style="color: #2f889a;"> Fix It.</h1>
+                <p style="font-size: 18px;">  <i class="fa fa-heartbeat" aria-hidden="true"
+                        style="color: rgb(255, 132, 0);"></i> </p>
+                <br>
+                <p style="font-size: 19px; color: #2f889a;"> <i class="fa fa-meetup" aria-hidden="true"></i>
+                    Unlimited design subscription for your business.</p>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © <span style="color: #2f889a;"> Fix It Company Ltd</span> 2022-2023</p>
+    </div>
+</body>
+
+</h
