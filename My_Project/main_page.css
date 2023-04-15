@@ -1,0 +1,208 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:ital@0;1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:ital@0;1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+        /* background-color: rgba(13, 17, 23, 0.88);    */
+       background-color: #171e25;  
+    /* background-color: rgb(23, 30, 37);  */
+    
+ }
+
+ .header{
+    padding: 0 50px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f5e7;
+    font-family: 'Rubik', sans-serif;
+    position: sticky;
+    top: 0;
+ }
+ .header .logo{
+    font-size: 25px;
+    background-image: linear-gradient(241deg, #151717 20%, #f21d1d 56%, #052766 84%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+ }
+ .Nav-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+
+ .Nav-bar .underline{
+    border-bottom: 3px solid #ffbd2f ;
+ }
+ .Nav-bar .Buy_Now{
+    border: 2px solid black;
+    color: #052766;
+ }
+
+ .navbar-link:link,
+ .navbar-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s;
+    color: black;
+ }
+ .Nav-bar a:hover{
+           color: orangered;
+ }
+
+ .mobile-nav-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+ }
+
+ .mobile-navbar-btn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+ }
+ .mobile-nav-icon[ name="close-outline"]{
+    display: none;
+ }
+
+
+
+
+
+/* heading tag under Main Senction */
+
+.heading_class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    /* max-width: 95vw; */
+}
+.heading{
+
+font-family: 'Rubik', sans-serif;
+color: white;
+font-size: 25px;
+}
+.heading2{
+    padding-right: 0.05em;
+    background-image: linear-gradient(241deg, #982ff7 20%, #524add 56%, #6668eb 84%);
+    font-weight: 900;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.parra_graph{
+    color: rgb(167, 181, 196);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.brouse_college{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;  
+    font-family: 'Rubik', sans-serif;
+    margin-top: 37px;
+    
+}
+.brouse_college .Search_bar{
+    border-radius: 18px;
+    width: 399px;
+    height: 41px;
+    font-size: 20px;
+    color: rgb(5, 98, 85);
+    padding-left: 34px;
+    border: 2px solid rgba(13, 17, 23, 0.88);
+}
+
+.brouse_college .submit_bar{
+    width: 84px;
+    height: 33px;
+    color: black;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .brouse_college .submit_bar:hover{
+    background-color: blue;
+    color: white;
+    
+  }
+
+
+/* cards item */
+
+.card{
+    display: flex;
+align-items: center;
+justify-content: center
+}
+.card_item{
+  
+ width: 385px;
+margin: 64px 30px;
+border: 2px solid rgba(13, 17, 23, 0.88);
+ background-color: rgba(13, 17, 23, 0.88);; 
+ justify-content: center;
+ border-radius: 10px;
+ font-family: 'Rubik', sans-serif;
+
+}
+.card_item b{
+    text-align: center;
+    padding-left : 26px;
+}
+
+.my1{
+    
+    padding-right: 0.05em;
+background-image: linear-gradient(243deg, #3dd875 23%, #0eb3a0 87%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 21px;
+}
+
+.list ul{
+    margin-top: 20px;   
+}
+
+.list ul li{
+    list-style: square;
+    margin-top: 10px;
+    list-style-position: inside;
+    lighting-color: #2f889a;
+}
+
+.list a{
+    text-decoration: none;
+    color: #2f889a;  
+}
+
+.list a:hover{
+    color: #ffbd2f;
+    text-decoration: underline #2f889a;;
+}

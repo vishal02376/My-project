@@ -1,0 +1,89 @@
+@media(max-width :980px){
+    .mobile-navbar-btn{
+       display: block;
+        z-index: 999;
+        border: 3px solid black;
+    }
+   .header{
+    position: relative;
+   }
+
+    .Nav-bar{
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background-color: #e7f5ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* to get the tranastion */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .Nav-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .active .Nav-bar{
+        transform: translateX(0);
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[ name="close-outline"]{
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[ name="menu-outline"]{
+        display: none;
+    }
+    .card_item{
+      width: 100px;
+      height: 100vh;
+      margin: 50px 15px;
+
+    }
+    .my1{
+        font-size: 15px;
+    }
+
+    .list ul li{
+        font-size: 12px;
+    }
+
+    .heading{
+        font-size: 12px;
+    }
+
+    .parra_graph{
+        font-size: 11px;
+    }
+
+    .brouse_college .Search_bar{
+        width: 250px;
+    }
+
+    .brouse_college .submit_bar{
+        width: 70;
+        
+    }
+
+    .brouse_college .submit_bar:hover{
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        
+      }
+ }
+
